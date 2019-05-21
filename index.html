@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Stateless Example</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
+            integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o"
+            crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/processing.js"></script>
+  </head>
+  <body>
+    <main role="main" class="container">
+      <div class="center">
+        <h1>Stateless Example</h1>
+        <p class="lead">
+          This is an example of how to do stateless processing.
+          <br />
+          It's so you don't have to do a refresh per-submission.
+        </p>
+        <div id="stateless_error" class="alert alert-danger" role="alert"></div>
+        <div id="stateless_success" class="alert alert-success" role="alert"></div>
+        <div class="input-group mb-3">
+          <input id="nameIN" type="text" class="form-control" placeholder="Name">
+          <div class="input-group-append">
+            <button id="nameBtn" class="btn btn-outline-primary" type="button">Submit</button>
+          </div>
+        </div>
+        <hr />
+        <small>
+          &copy; Friendifie, Inc. &mdash; All Rights Reserved
+        <small>
+      </div>
+    </main>
+  </body>
+</html>
